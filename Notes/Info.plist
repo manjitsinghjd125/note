@@ -41,5 +41,17 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Allows you to add photos to your notes.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Allows to click image</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>just to know where are you</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>just to know where are you</string>
+	<key>NSLocationUsageDescription</key>
+	<string>just to know where are you</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>just to know where are you</string>
 </dict>
 </plist>

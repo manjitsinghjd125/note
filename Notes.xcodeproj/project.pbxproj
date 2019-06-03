@@ -15,6 +15,8 @@
 		0FC6102320755E2A00AB2F1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FC6102120755E2A00AB2F1E /* LaunchScreen.storyboard */; };
 		0FC6102E20755E2A00AB2F1E /* NotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC6102D20755E2A00AB2F1E /* NotesTests.swift */; };
 		0FC6103920755E2A00AB2F1E /* NotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC6103820755E2A00AB2F1E /* NotesUITests.swift */; };
+		0FC610472075753100AB2F1E /* noteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC610462075753100AB2F1E /* noteTableViewController.swift */; };
+		0FC610492075913900AB2F1E /* noteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC610482075913900AB2F1E /* noteTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		0FC6103420755E2A00AB2F1E /* NotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FC6103820755E2A00AB2F1E /* NotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesUITests.swift; sourceTree = "<group>"; };
 		0FC6103A20755E2A00AB2F1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FC610462075753100AB2F1E /* noteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = noteTableViewController.swift; sourceTree = "<group>"; };
+		0FC610482075913900AB2F1E /* noteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = noteTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +105,13 @@
 			children = (
 				0FC6101520755E2800AB2F1E /* AppDelegate.swift */,
 				0FC6101720755E2800AB2F1E /* ViewController.swift */,
+				0FC610462075753100AB2F1E /* noteTableViewController.swift */,
 				0FC6101920755E2800AB2F1E /* Main.storyboard */,
 				0FC6101F20755E2A00AB2F1E /* Assets.xcassets */,
 				0FC6102120755E2A00AB2F1E /* LaunchScreen.storyboard */,
 				0FC6102420755E2A00AB2F1E /* Info.plist */,
 				0FC6101C20755E2800AB2F1E /* Notes.xcdatamodeld */,
+				0FC610482075913900AB2F1E /* noteTableViewCell.swift */,
 			);
 			path = Notes;
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FC610492075913900AB2F1E /* noteTableViewCell.swift in Sources */,
 				0FC6101820755E2800AB2F1E /* ViewController.swift in Sources */,
+				0FC610472075753100AB2F1E /* noteTableViewController.swift in Sources */,
 				0FC6101E20755E2800AB2F1E /* Notes.xcdatamodeld in Sources */,
 				0FC6101620755E2800AB2F1E /* AppDelegate.swift in Sources */,
 			);
